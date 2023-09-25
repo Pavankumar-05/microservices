@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server #Identification purpose
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Pavankumar-05/dnb-config-repo.git
+          username: Pavankumar-05
+          password: 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
+          clone-on-start: true
+          skip-ssl-validation: true
+server:
+  port: 8888
